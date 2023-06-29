@@ -1,0 +1,27 @@
+.contactpage{
+  width: 300px;
+  height: 300px;
+  margin: 20px  350px;
+  border: 2px solid black;
+  box-shadow: blanchedalmond;
+}
+.contactpage h1{
+  margin: 10px 60px ;
+}
+.input{
+margin: 10px 60px;
+}
+p{
+  margin: 10px 60px;  
+  
+
+}
+.signin{
+  margin: 10px 60px;
+  border: 2px solid black;
+  width: 50px;
+  text-decoration: none;
+  list-style: none;
+  color: white;
+  background-color: black;
+}

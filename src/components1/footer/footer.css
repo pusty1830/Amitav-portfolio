@@ -1,0 +1,31 @@
+footer{
+    background-color: rgb(17, 17, 37);
+    height: 233px;
+    margin: 50px 0px;
+}
+.footer{
+    display: flex;
+    padding: 23px 122px;
+    justify-content: space-evenly;
+
+}
+.first-footer h3{
+    color: white;
+
+}
+.second-footer ul li {
+   
+    margin: 20px 0px;
+   
+}
+.second-footer ul li a{
+    list-style: none;
+    text-decoration: none;
+    color: white;
+}
+
+footer .footer-rights{
+    text-align: center;
+    color: grey;
+    margin: 20px 0;
+}
