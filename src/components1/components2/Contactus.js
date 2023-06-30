@@ -23,11 +23,11 @@ const Contactus = () => {
           history("/")
         }
        else if(res.data==="notexist"){
-          history("/")
+          history("/sinup")
         }
       })
       .catch(e=>{
-        alert("wrong data");
+        alert("add once more");
         console.log(e)
       })
     }

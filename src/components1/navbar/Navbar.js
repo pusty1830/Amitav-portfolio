@@ -1,25 +1,25 @@
 import './navbar.css';
 import{Link} from 'react-router-dom';
 import myImage from '../../images/Ap.jpg'
-import { useLocation,useNavigate } from 'react-router-dom'
+// import { useLocation,useNavigate } from 'react-router-dom'
 
 
 import React from 'react'
 
 const Navbar = () => {
 
-  const history=useNavigate();
+  
 
-  const handlesinout=()=>{
-    history("/login")
-   }
-   const handlesinin=()=>{
-    history("/sinup")
-   }
-   const handlelogin=()=>{
-    history("/login")
-   }
-
+  // const history=useNavigate();
+  // const handlesinout=()=>{
+  //     history("/login")
+  //    }
+  //    const handlesinin=()=>{
+  //     history("/sinup")
+  //    }
+  //    const handlelogin=()=>{
+  //     history("/login")
+  //    }
 
 
 
@@ -35,8 +35,8 @@ const Navbar = () => {
           <li> <Link to="/about">About Us</Link></li>
           <li><Link to="/contact">Contact Us</Link></li>
           <li><Link to="/skill">Skill's</Link></li>
-          <Link className='btn2' to="/login"  onClick={handlelogin}>log in</Link>
-          <Link className='btn' to="/login" onClick={handlesinout}>sin out</Link>
+          {/* <Link className='btn2' to="/login"  onClick={handlelogin}>log in</Link>
+         <Link className='btn' to="/login" onClick={handlesinout}>sin out</Link> */}
           
         </ul>
       </nav>

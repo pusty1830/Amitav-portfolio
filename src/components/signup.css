@@ -25,3 +25,12 @@ p{
     color: white;
     background-color: black;
 }
+@media (max-width:700px) {
+    .sinuppage{
+        width: 300px;
+        height: 300px;
+        margin: 20px  50px;
+        border: 2px solid black;
+        box-shadow: blanchedalmond;
+    }
+}

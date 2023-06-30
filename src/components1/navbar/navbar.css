@@ -45,3 +45,30 @@ nav ul li{
   margin: 10px 0px 0px 140px;
 
 }
+@media (max-width:700px) {
+  .navbar{
+    height: 90px;
+    width: 700px;
+    color:black;
+    background-color:rgb(178, 170, 170);
+    display: flex;
+}
+.circular{
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  margin: 20px 10px;
+} 
+.navbar h1{
+  font-size: 40px;
+}
+nav ul li{
+  margin: 20px 10px;
+}
+nav ul {
+  display: flex;
+  text-decoration: none;
+  list-style: none;
+  flex-direction: row;
+}
+}
