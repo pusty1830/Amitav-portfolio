@@ -11,7 +11,7 @@ const Footer = () => {
         history("/login")
        }
        const handlesinin=()=>{
-        history("/sinup")
+        history("/signup")
        }
        const handlelogin=()=>{
         history("/login")
@@ -36,7 +36,7 @@ const Footer = () => {
                 <ul>
                 <li><Link className='btn2' to="/login"  onClick={handlelogin}>log in</Link></li>
                   <li> <Link className='btn' to="/login" onClick={handlesinout}>sin out</Link></li>
-                  <li> <Link className='btn1' to="/sinup" onClick={handlesinin}>sin up</Link></li>
+                  <li> <Link className='btn1' to="/signup" onClick={handlesinin}>sin up</Link></li>
                     {/* <li> <a href="/">Home</a></li>
                     <li> <a href="/">About</a></li>
                     <li> <a href="/">Services</a></li>
