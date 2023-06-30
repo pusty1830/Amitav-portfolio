@@ -42,7 +42,7 @@ nav ul li{
   color: black;
   background-color: white;
   height: 30px;
-  margin: 10px 0px 0px 140px;
+  margin: 10px 0px 0px 10px;
 
 }
 @media (max-width:700px) {
@@ -60,7 +60,7 @@ nav ul li{
   margin: 20px 10px;
 } 
 .navbar h1{
-  font-size: 40px;
+  font-size: 25px;
 }
 nav ul li{
   margin: 20px 10px;
